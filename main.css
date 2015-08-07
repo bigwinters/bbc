@@ -1,0 +1,22 @@
+a {
+    color: blue;
+    cursor: pointer;
+  	}
+
+a:hover {
+  	color: blue;
+  	}
+
+p{
+	display: inline;
+}
+
+.secondary{
+	color: red;
+	display:none;
+}
+
+.secondary:hover{
+	cursor: pointer;
+}
+
