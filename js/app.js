@@ -31,7 +31,7 @@
                     if (updateWordCount(tar,true) === false){return;} else
                         {
                             tar = "#" + tar;
-                            $(tar).fadeIn();
+                            $(tar).fadeIn("slow");
                         }
                 }
 
@@ -54,7 +54,7 @@
                     $('.secondary').click(function(){
                         var currentID = $(this).attr('id');
                         updateWordCount(currentID,false);
-                        $(this).fadeOut();
+                        $(this).fadeOut("slow");
                         notDisplayed(currentID);
                     });
                 });

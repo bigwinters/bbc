@@ -1,0 +1,90 @@
+@font-face {
+	font-family: Quicksand;
+	src: url("css/Quicksand-Regular.otf") format("opentype");
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: Quicksand,Verdana;
+    font-size: 1.4em;
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+  	}
+
+a:hover {
+  	color: blue;
+  	}
+
+p{
+	display: inline;
+}
+
+#content{
+	margin-right: 20%;
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-right-style: solid;
+	border-right-width: 1%;
+	border-right-color: black;
+	padding-right: 2%;
+}
+
+.secondary{
+	color: red;
+	display:none;
+}
+
+.secondary:hover{
+	cursor: pointer;
+}
+
+#wordcount{
+	position: fixed;
+	height: 5%;
+	top: 40%;
+	text-align: center;
+}
+
+.sidebar{
+	position: fixed;
+	height: 100%;
+	right: 0;
+	width: 20%;
+}
+
+.sidebar img{
+	position: fixed;
+	right: 0;
+	height: 10%;
+	margin-right: 7%;
+}
+
+#first{
+	top: 5%;
+}
+
+#second{
+	top: 25%;
+}
+
+#third{
+	top: 65%;
+}
+
+#fourth{
+	top: 85%;
+}

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 	<head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	</head>
 
 	<body>
-		<div>
+		<div id="content">
 			<p>Hello. My name is Daniel Winters</p>
 			<br>
 			<br>
 			<p>250 words isn't a whole lot when you think about it, so I started thinking of a way to get <a class="trigger" onclick='displaySecondary($(this).html())'>around</a> it.</p>
-			<p class="secondary" id="around">And I came up with this. I used HTML / CSS, Javascript and jQuery to build this essay. Three coding languages that I have taught myself. To uncover the additional information, simply click the link. And to close the information, click on it.</p>
+			<p class="secondary" id="around">And I came up with this. I used HTML / CSS, Javascript and jQuery, three coding languages that I have taught myself. To uncover the additional information, simply click the blue text. And to close the red text, click on it.</p>
 			<br>
 			<br>
 			<p>From <a href="https://medium.com/maxistentialism-blog/star-trek-the-next-generation-in-40-hours-c4a6762cbd3" target="_blank">Medium's</a> ability to allow users to comment on each individual paragraph, <a href="http://www.tabletmag.com/jewish-news-and-politics/191806/the-illusionist-al-seckel" target="_blank">Tablet's</a> dynamic reading progress bar, and the BBC's own elegant <a href="http://www.bbc.co.uk/news/special/2014/newsspec_7617/index.html" target="_blank">scrolling articles</a>, the way digital news outlets are constantly <a class="trigger" onclick='displaySecondary($(this).html())'>changing</a>.</p>
@@ -36,10 +36,13 @@
 			<p>And that's why I believe I am a good candidate for this role. Because not only am I a devoted to my writing craft, I’m also constantly thinking about, and creating, new ways for <a class="trigger" onclick='displaySecondary($(this).html())'>my</a></p>
 			<p class="secondary" id="my">, and hopefully the BBC’s,</p>
 			<p> writing to stay relevant in the digital future.</p>
-			<br>
-			<br>
-			<p id="wordcount"></p>
 		</div>
-
+		<div class="sidebar">
+			<a href="http://www.danielwinters.co.uk/code" target="_blank"><img src="img/iconmonstr-html-code-icon-128.png" id="first"></a>
+			<a href="http://www.danielwinters.co.uk/blog" target="_blank"><img src="img/iconmonstr-pen-icon-128.png" id="second"></a>
+			<p id="wordcount"></p>
+			<a href="https://uk.linkedin.com/pub/daniel-winters/62/b14/b71" target="_blank"><img src="img/iconmonstr-linkedin-3-icon-128.png" id="third"></a>
+			<a href="mailto:hello@danielwinters.co.uk?Subject=Hello%20Daniel" target="_top"><img src="img/iconmonstr-email-3-icon-128.png" id="fourth"></a>
+		</div>
 	</body>
 </html>
