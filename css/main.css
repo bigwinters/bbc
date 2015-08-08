@@ -7,7 +7,7 @@ html {
     position: relative;
     min-height: 100%;
     font-family: Quicksand,Verdana;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 
@@ -36,7 +36,7 @@ p{
 	margin-right: 20%;
 	margin-left: 2%;
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	border-right-style: solid;
 	border-right-width: 1%;
 	border-right-color: black;
@@ -55,8 +55,11 @@ p{
 #wordcount{
 	position: fixed;
 	height: 5%;
-	top: 40%;
+	width: 20%;
+	top: 45%;
 	text-align: center;
+	margin-right: 2%;
+	font-size: 1.1em;
 }
 
 .sidebar{
