@@ -7,17 +7,9 @@ html {
     position: relative;
     min-height: 100%;
     font-family: Georgia;
-    font-size: 1em;
+    font-size: 1.08em;
 }
 
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-}
 
 a {
     color: blue;
@@ -33,50 +25,41 @@ p{
 }
 
 #content{
-	margin-right: 18%;
-	margin-left: 2%;
-	margin-top: 5%;
-	margin-bottom: 2%;
-	border-right-style: solid;
-	border-right-width: 1%;
-	border-right-color: black;
 	padding-right: 2%;
+	height: 90%;
+	border-right: 2px solid black;
+	margin-bottom: 10%;
+	padding-top: 2%;
 }
 
 .secondary{
-	color: red;
 	display:none;
+	color: red;
 }
 
 .secondary:hover{
 	cursor: pointer;
 }
 
-#wordcount{
-	font-family: Georgia;
-	position: fixed;
-	height: 5%;
-	width: 14%;
-	top: 45%;
-	margin-left: 5%;
+#totalwords{
+	top: 50%;
+	margin-left: 40%;
 	text-align: center;
-	font-size: 1.1em;
+	width: 100%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .sidebar{
+	height: 90%;
 	position: fixed;
-	height: 100%;
-	right: 0;
-	width: 20%;
+	right:5%;
 }
 
 .sidebar img{
-	position: fixed;
-	right: 0;
-	height: auto;
-	margin-right: 5%;
-	max-width:100%;
-	border-color: black;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 65%;
 }
 
 #first{

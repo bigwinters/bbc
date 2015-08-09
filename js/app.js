@@ -23,7 +23,7 @@
                     if (pos){totalWords += change;}
                     else {totalWords -= change;}
                     if (totalWords >= 250){return false;}
-                    $("#wordcount").html("Word Count = " + totalWords);
+                    $("#wordcount").html("Word Count = <br>" + totalWords);
                 }
 
                 function displaySecondary(tar){
