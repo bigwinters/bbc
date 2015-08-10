@@ -1,18 +1,15 @@
-    var totalWords = 203;
-                var info = {poker: ["I used to work in casino",6]};
+    var totalWords = 199;
                 var displayed = [];
                 function updateWordCount(diff,pos){
                     var change=0;
                     switch(diff){
                         case "around": change = 43;
                         break;
-                        case "changing": change = 26;
+                        case "evolving": change = 26;
                         break;
-                        case "engagement": change = 37;
+                        case "styles": change = 16;
                         break;
-                        case "journalistic": change = 13;
-                        break;
-                        case "intact": change = 21;
+                        case "could": change = 37;
                         break;
                         case "wish": change = 26;
                         break;
